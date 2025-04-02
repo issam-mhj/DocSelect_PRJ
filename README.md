@@ -1,62 +1,79 @@
-# DocSelect Front-end UI/UX Project
+<div align="center">
+<h3 align="center">DocSelect Front-end UI/UX Project</h3>
 
-## Contexte du projet
+  <p align="center">
+    Multi-page website for DocSelect, enhancing user experience for healthcare professionals and patients.
+    <br />
+     <a href="https://issam-mhj.github.io/docselect_prj/">issam-mhj.github.io/docselect_prj/</a>
+  </p>
+</div>
 
-Nous cherchons un **développeur Front-end UI/UX** talentueux pour transformer le site vitrine actuel de **DocSelect** d'une seule page en un site **multi-pages** plus riche en contenu et offrant une **expérience utilisateur optimisée** pour les professionnels de santé et leurs patients. L'objectif est de mieux présenter les services de gestion de disponibilité des docteurs et de faciliter la prise de rendez-vous par les patients.
 
-## Objectif
+## Table of Contents
 
-- Migrer le site actuel vers un format multi-pages incluant les pages : Home, About, Services, Contact Us.
-- Garantir une navigation fluide et intuitive.
-- Respecter une charte graphique moderne centrée sur la santé.
-- Optimiser les performances et garantir une compatibilité mobile, tablette et desktop.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#key-features">Key Features</a></li>
+      </ul>
+    </li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## Fonctionnalités clés
+## About The Project
 
-- **Structure multi-pages** : Diviser le contenu en plusieurs pages avec une navigation intuitive.
-- **Design moderne** : Créer un design adapté à tous les appareils (mobile, tablette, desktop), centré sur la santé.
-- **Contenu optimisé** : Proposer un contenu adéquat (texte et images).
-- **Optimisation des performances** : Maintenir des temps de chargement rapides malgré les nouvelles fonctionnalités.
-- **Formulaire de contact amélioré** : Ajouter des champs interactifs pour faciliter la communication des visiteurs.
+This project involves developing a multi-page front-end UI/UX for DocSelect, a platform designed to streamline medical appointment management. The goal is to create a user-friendly experience for both healthcare professionals and patients, improving accessibility and ease of use compared to the original single-page design. The site includes Home, About, Services, and Contact Us pages.
 
-## Technologies requises
+### Key Features
 
-- **HTML5**
-- **CSS3**
+- **Multi-Page Structure:** Clear separation of content into distinct pages for improved navigation.
+- **Responsive Design:** Adapts seamlessly to various devices, including mobile, tablet, and desktop.
+- **Modern UI:** Health-centric, modern design to enhance user engagement.
+- **Contact Form:** Improved interactive contact form for better communication.
+- **Informative Content:** Optimized text and images to effectively communicate DocSelect's services.
 
-## User Stories
+## Architecture
 
-- En tant que **visiteur**, je veux naviguer facilement entre les différentes sections du site pour trouver rapidement les informations dont j'ai besoin.
-- En tant que **développeur Front-end UI/UX**, je dois créer des pages telles que Home, About, Services, Contact Us pour améliorer l'expérience utilisateur.
-- (Bonus) En tant qu'**UX designer**, je dois réaliser une wireframe low-fidelity pour visualiser la structure de base et la navigation du site.
+The project is built using:
 
-## Bonus et recommandations
+- **HTML5:** For structuring the web pages and their content.
+- **CSS3:** For styling and responsive design, utilizing Bootstrap and custom styles.
+- **JavaScript:** For interactive elements and enhanced user experience (though minimal in the provided code).
+- **Font Awesome:** For icons.
+- **Owl Carousel:** For the client testimonials section on the homepage.
+- **Google Maps API:** Integrated into the contact page.
 
-- **Analyse des performances** : Évaluez et optimisez l'architecture existante avant la migration.
-- **Conformité W3C** : Assurez-vous que le code HTML et CSS est conforme aux normes du W3C.
-- **Tests d'accessibilité** : Utilisez des outils comme Axe ou WAVE pour tester et améliorer l'accessibilité.
-- **Déploiement GitHub Pages** : Hébergez le site final sur GitHub Pages pour le rendre public.
+## Getting Started
 
-## Modalités pédagogiques
+### Prerequisites
 
-- **Travail** : Individuel.
-- **Durée** : 2 jours.
-- **Date limite** : 11/10/2023 à 17:30.
+- A web browser (Chrome, Firefox, Safari, etc.) to view the website.
+- A text editor or IDE (e.g., VS Code, Sublime Text) to modify the code (optional).
 
-## Modalités d'évaluation
+### Installation
 
-- Durée de 10 minutes.
-- Évaluation du respect des exigences fonctionnelles et des fonctionnalités clés.
-- Validation du site via les validateurs HTML/CSS du W3C.
-- Tests de compatibilité avec différents navigateurs et appareils.
-- Tests d'accessibilité.
-- Session de Q/A.
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/issam-mhj/docselect_prj.git
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd docselect_prj
+    ```
+3.  **Open `index.html` in your web browser:**
+    Simply double-click the `index.html` file, or right-click and choose "Open with" your preferred browser.
 
-## Livrables
-
-1. **Lien vers le repo GitHub** contenant le code source (HTML/CSS) et tous les assets.
-2. **Lien vers le site web hébergé** sur GitHub Pages.
-
-### Bonus
-
-- Wireframe low-fidelity d'une page.
+4.  **(Optional) Deploy to GitHub Pages:**
+    To host the site online, you can deploy it to GitHub Pages.  Ensure the repository is public, then enable GitHub Pages in the repository settings.
